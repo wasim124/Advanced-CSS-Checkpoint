@@ -1,0 +1,74 @@
+/**general**/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea {
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font;
+  line-height: 1.5;
+  // color: $tex;
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*button*/
+
+.btn {
+  display: inline-block;
+  padding: 0.9rem 5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  background-color: $primary;
+  color: $textWhite;
+  // border: 3px solid $primary;
+  border-radius: 6rem;
+  transition: all 200ms ease-in-out;
+}
+/**heading**/
+
+.heading{
+  font-size: 4rem;
+  font-weight: 700;
+  color: $textDark;
+}
+/**text**/
+.text-center{
+  text-align: center;
+}
+
+/**padding**/
+.padding{
+  padding: 2rem 0;
+}
